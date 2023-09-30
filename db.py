@@ -31,7 +31,7 @@ class MongoDriver:
             print(e)
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     mi_base_de_datos = MongoDriver()
     mi_base_de_datos.insert_record(record={
         "Marca": "Babolat",
